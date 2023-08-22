@@ -33,7 +33,7 @@ class MainWindow(QWidget):
         grid.addWidget(combo, 0, 2)
         grid.addWidget(time_label, 1, 0)
         grid.addWidget(self.time_input_box, 1, 1)
-        grid.addWidget(self.button, 2, 0, 1, 3)
+        grid.addWidget(self.button, 2, 1, 1, 1)
         grid.addWidget(self.output_label, 3, 0, 1, 3)
 
         self.setLayout(grid)
